@@ -1,0 +1,11 @@
+{
+	"author": "udonJS",
+        "name": "nodeYo",
+	"version": "0.0.1",
+	"description": "Node Yo, this package does nothing",
+        "main": "nodeYo",
+	"dependencies": {},
+	"engines": {
+		"node": "*"
+	}
+}
