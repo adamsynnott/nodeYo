@@ -1,10 +1,15 @@
 {
-	"author": "udonJS",
-        "name": "nodeYo",
+	"author": "adamsynnott",
+        "name": "nodeyo",
 	"version": "0.0.1",
 	"description": "Node Yo, this package does nothing",
         "main": "nodeYo",
-	"dependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/adamsynnott/nodeYo"
+	},
+      	"keywords" : ["node", "yo"],
+        "dependencies": {},
 	"engines": {
 		"node": "*"
 	}
