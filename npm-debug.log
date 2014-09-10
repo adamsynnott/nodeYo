@@ -1,0 +1,104 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.26
+3 info using node@v0.10.31
+4 verbose node symlink /usr/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/ubuntu/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/home/ubuntu/.npm/nodeyo/0.0.1/package.tgz', '.' ]
+12 verbose tarball /home/ubuntu/.npm/nodeyo/0.0.1/package.tgz
+13 verbose folder .
+14 info prepublish nodeyo@0.0.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /home/ubuntu/.npm/1f1177db-tar.lock
+17 silly lockFile af4d2a3a-ntu-npm-nodeyo-0-0-1-package-tgz tar:///home/ubuntu/.npm/nodeyo/0.0.1/package.tgz
+18 verbose lock tar:///home/ubuntu/.npm/nodeyo/0.0.1/package.tgz /home/ubuntu/.npm/af4d2a3a-ntu-npm-nodeyo-0-0-1-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile af4d2a3a-ntu-npm-nodeyo-0-0-1-package-tgz tar:///home/ubuntu/.npm/nodeyo/0.0.1/package.tgz
+22 silly lockFile af4d2a3a-ntu-npm-nodeyo-0-0-1-package-tgz tar:///home/ubuntu/.npm/nodeyo/0.0.1/package.tgz
+23 silly lockFile c4e33ce4--ubuntu-npm-nodeyo-0-0-1-package /home/ubuntu/.npm/nodeyo/0.0.1/package
+24 verbose lock /home/ubuntu/.npm/nodeyo/0.0.1/package /home/ubuntu/.npm/c4e33ce4--ubuntu-npm-nodeyo-0-0-1-package.lock
+25 silly lockFile c4e33ce4--ubuntu-npm-nodeyo-0-0-1-package /home/ubuntu/.npm/nodeyo/0.0.1/package
+26 silly lockFile c4e33ce4--ubuntu-npm-nodeyo-0-0-1-package /home/ubuntu/.npm/nodeyo/0.0.1/package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { author: { name: 'adamsynnott' },
+29 silly publish   name: 'nodeyo',
+29 silly publish   version: '0.0.1',
+29 silly publish   description: 'Node Yo, this package does nothing',
+29 silly publish   main: 'nodeYo',
+29 silly publish   repository: { type: 'git', url: 'https://github.com/adamsynnott/nodeYo' },
+29 silly publish   keywords: [ 'node', 'yo' ],
+29 silly publish   dependencies: {},
+29 silly publish   engines: { node: '*' },
+29 silly publish   readme: '# NodeYo \n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   gitHead: 'd17cb28870f0a26e4fabbc1c53da270b52d21f64',
+29 silly publish   bugs: { url: 'https://github.com/adamsynnott/nodeYo/issues' },
+29 silly publish   homepage: 'https://github.com/adamsynnott/nodeYo',
+29 silly publish   _id: 'nodeyo@0.0.1',
+29 silly publish   scripts: {},
+29 silly publish   _shasum: 'c53a03cc8d499773d47f800f0488cbc0127ddf0d',
+29 silly publish   _from: '.' }
+30 verbose request where is /nodeyo
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id fff7666c675f8615
+33 verbose url raw /nodeyo
+34 verbose url resolving [ 'https://registry.npmjs.org/', './nodeyo' ]
+35 verbose url resolved https://registry.npmjs.org/nodeyo
+36 verbose request where is https://registry.npmjs.org/nodeyo
+37 info trying registry request attempt 1 at 09:50:13
+38 http PUT https://registry.npmjs.org/nodeyo
+39 http 403 https://registry.npmjs.org/nodeyo
+40 verbose headers { date: 'Wed, 10 Sep 2014 09:50:12 GMT',
+40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+40 verbose headers   'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=60',
+40 verbose headers   'content-length': '2024',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   'x-served-by': 'cache-syd1622-SYD',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1410342612.571901,VS0,VE193',
+40 verbose headers   'keep-alive': 'timeout=10, max=50',
+40 verbose headers   connection: 'Keep-Alive' }
+41 error publish Failed PUT 403
+42 error Error: forbidden cannot modify pre-existing version: 0.0.1
+42 error old={"author":{"name":"adamsynnott"},"name":"nodeyo","version":"0.0.1","description":"Node Yo, this package does nothing","main":"nodeYo","repository":{"type":"git","url":"https://github.com/adamsynnott/nodeYo"},"keywords":["node","yo"],"dependencies":{},"engines":{"node":"*"},"gitHead":"c1d6411cd021440bde61a23ad55b9122d822668b","bugs":{"url":"https://github.com/adamsynnott/nodeYo/issues"},"homepage":"https://github.com/adamsynnott/nodeYo","_id":"nodeyo@0.0.1","scripts":{},"_shasum":"c53a03cc8d499773d47f800f0488cbc0127ddf0d","_from":".","_npmVersion":"1.4.26","_npmUser":{"name":"adamsynnott","email":"npmjs@adamsynnott.id.au"},"maintainers":[{"name":"adamsynnott","email":"npmjs@adamsynnott.id.au"}],"dist":{"shasum":"c53a03cc8d499773d47f800f0488cbc0127ddf0d","tarball":"http://registry.npmjs.org/nodeyo/-/nodeyo-0.0.1.tgz"}}
+42 error new={"author":{"name":"adamsynnott"},"name":"nodeyo","version":"0.0.1","description":"Node Yo, this package does nothing","main":"nodeYo","repository":{"type":"git","url":"https://github.com/adamsynnott/nodeYo"},"keywords":["node","yo"],"dependencies":{},"engines":{"node":"*"},"readme":"# NodeYo \u000a","readmeFilename":"README.md","gitHead":"d17cb28870f0a26e4fabbc1c53da270b52d21f64","bugs":{"url":"https://github.com/adamsynnott/nodeYo/issues"},"homepage":"https://github.com/adamsynnott/nodeYo","_id":"nodeyo@0.0.1","scripts":{},"_shasum":"c53a03cc8d499773d47f800f0488cbc0127ddf0d","_from":".","_npmVersion":"1.4.26","_npmUser":{"name":"adamsynnott","email":"npmjs@adamsynnott.id.au"},"maintainers":[{"name":"adamsynnott","email":"npmjs@adamsynnott.id.au"}],"dist":{"shasum":"c53a03cc8d499773d47f800f0488cbc0127ddf0d","tarball":"http://registry.npmjs.org/nodeyo/-/nodeyo-0.0.1.tgz"}}: nodeyo
+42 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+42 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+42 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+42 error     at Request.emit (events.js:98:17)
+42 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+42 error     at Request.emit (events.js:117:20)
+42 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+42 error     at IncomingMessage.emit (events.js:117:20)
+42 error     at _stream_readable.js:943:16
+42 error     at process._tickCallback (node.js:419:13)
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Linux 3.13.0-24-generic
+45 error command "node" "/usr/local/bin/npm" "publish"
+46 error cwd /home/ubuntu/nodeyo
+47 error node -v v0.10.31
+48 error npm -v 1.4.26
+49 verbose exit [ 1, true ]
