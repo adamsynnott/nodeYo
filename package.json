@@ -1,7 +1,7 @@
 {
 	"author": "adamsynnott",
         "name": "nodeyo",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Node Yo, this package does nothing",
         "main": "nodeYo",
 	"repository": {
